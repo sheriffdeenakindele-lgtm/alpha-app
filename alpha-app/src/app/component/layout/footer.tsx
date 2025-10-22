@@ -1,8 +1,7 @@
 import React from "react";
-import Wrapper from "@/src/shared/wrapper";
+import Wrapper from "../../../shared/wrapper";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/logo.png";
 
 const Footer = () => {
     return (
@@ -11,7 +10,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
                     {/* left with logo*/}
                     <div className="space-y-4">
-                        <Link className='hover:text-teal-700 duration-300' href="/"><Image src={logo} alt="panaverse dao" width={150} height={50} /></Link>
+                        <Link className='hover:text-teal-700 duration-300' href="/"><Image src="/logo.png" alt="panaverse dao" width={150} height={50} /></Link>
                         <p className="text-slate-600 text-sm leading-relaxed">Certified Web 3.0 and Metaverse Developer A One and Quarter Years Panaverse DAO Earn as you Learn Program Getting Ready for the Next Generation of the Internet</p>
                         
                         {/* Social Media Icons */}

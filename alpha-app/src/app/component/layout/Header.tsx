@@ -1,7 +1,6 @@
-import react from 'react';
-import logo from 'public/logo.png';
+import React from 'react';
 import Image from 'next/image';
-import Wrapper from '@/src/shared/wrapper';
+import Wrapper from '../../../shared/wrapper';
 import Link from 'next/link';
 
 
@@ -14,7 +13,7 @@ const Header = () => {
 
                     {/*logo here */}
                     <div>
-                        <Link className='hover:text-teal-700 duration-300' href="/"><Image src={logo} alt="panaverse dao" /></Link>
+                        <Link className='hover:text-teal-700 duration-300' href="/"><Image src="/logo.png" alt="panaverse dao" width={150} height={50} /></Link>
 
 
                     </div>
